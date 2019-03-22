@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors ZhangSen (you@example.org)
+ * @date    2019-03-13 22:58:45
+ * @version $Id$
+ */
+/*nav start*/
+.nav{
+    width: 100%;
+    height: 50px;
+    background-color: #95b4a2;
+}
+.nav .navContent .logo a {
+    width: 36px;
+    height: 50px;
+    display: block;
+    margin-top: 7px;
+    font-size: 13px;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+}
+.nav .navContent .logoText{
+    margin:13px 0 0 15px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.nav .navContent .navItems a{
+    display: block;
+    font-size:15px;
+    font-weight: bold;
+    margin-top: 17px;
+    color: #bcd2c5;
+    float: left;
+    padding-left: 20px;
+}
+.nav .navContent .navItems a:hover{
+    color: #fff;
+}
+/*nav end*/
+/*content start*/
+.content{
+    width: 100%;
+    height: 650px;
+    background-color: #efeeea;
+    overflow: hidden;
+}
+.contMain .circle{
+    width: 120px;
+    height: 120px;
+    margin-top: 40px;
+    background-image: url(../images/Circle.png); 
+}
+.contMain .txt{
+     font-size: 40px;
+     font-weight: bold;   
+     margin:50px 0 0 40px;
+}
+.show{
+    width: 1200px;
+    height: 400px;
+    margin: 100px auto 0;
+    background-color: #d7d4c7;
+    overflow: hidden;
+}
+.show .showOne{
+    width: 940px;
+    height: 200px;
+    background-color: #fff;
+    margin:50px auto;
+}
+.show .showTwo{
+    width: 940px;
+    height: 100px;
+    background-color: #fff;
+    margin:0 auto;
+}
+/*content end*/

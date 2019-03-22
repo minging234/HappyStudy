@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Question Web Test</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link rel="stylesheet" href="{{ url_for('static',filename='styles/index.css') }}">
+<link rel="stylesheet" href="{{ url_for('static',filename='styles/rest.css') }}">
+</head>
+<body>
+ <!-- nav start -->
+ <div class="nav">
+    <div class="navContent wrap">
+         <div class="logo fl">
+             <a href="#" title="Question">
+                 <h1>Question</h1>
+             </a>
+        </div>
+        <p class="logoText fl">Question</p>
+        <div class="navItems fr">
+             <a href="#" title="ABOUT">ABOUT</a>
+             <a href="#" title="SERVICES">SERVICES</a>
+             <a href="#" title="WORK">WORK</a>
+             <a href="#" title="BLOG">BLOG</a>
+             <a href="#" title="CONTACT">CONTACT</a>
+        </div>
+    </div>
+    
+ </div>
+ <!-- nav end -->
+ <!-- content start-->
+ <div class="content">
+     <div class="contMain wrap">
+         <div class="circle fl"></div>
+         <div class="txt fl">
+            <p class="txtOne">我们应当努力奋斗，有所作为</p>
+            <p class="txtTwo">努力不一定会成功，但是不努力真的很舒服</p> 
+         </div>
+         <div class="show">
+             <div class="showOne"></div>
+             <input name = "result" placeholder = "bad" size = "400" value = "{{ RESULT }}"/>
+             <div class="showTwo"></div>
+         </div>
+     </div>
+ </div>   
+ <!-- content end -->
+
+</body>
+</html>
